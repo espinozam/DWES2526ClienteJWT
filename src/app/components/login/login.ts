@@ -24,7 +24,7 @@ export class LoginComponent {
       username: this.username,
       password: this.password
     }).subscribe({
-      next: () => this.router.navigate(['/home']),
+      next: () => this.router.navigate(['/users']),
       error: () => alert('Login incorrecto')
     });
   }
